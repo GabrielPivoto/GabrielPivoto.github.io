@@ -5,7 +5,7 @@ body{
 section{
 
     height: 500px;
-    background-color: wheat;
+    background-color: white;
     border: solid black 1px;
 
 }
@@ -87,4 +87,13 @@ p{
 
 .socials{
     padding-bottom: 200px;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+
+.social{
+    margin: 20px;
 }
