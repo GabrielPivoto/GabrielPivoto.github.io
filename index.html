@@ -14,16 +14,16 @@
             <nav>
                 <img class ="logo" src="src/images/logo-20-a4c9b38c14.png" alt="Inatel logo">
                 <ul>
-                    <li>Sobre mim</li>
-                    <li>Projetos</li>
-                    <li>Contato</li>
+                    <li><a href="#about-me">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>Gabriel Pivoto</h1>
                     <p>Java Developer</p>
-                    <div class="button">Sobre mim</div>
+                    <div class="button"><a href="#about-me">Sobre mim</a></div>
                 </div>
                 <div class="socials">
                     <div><a href="https://www.linkedin.com/in/gabriel-pivoto-091ab0226" class="social">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>Sobre mim</h2>
                 <p>Olá! Meu nome é Gabriel. Sou um Java Developer em formação!</p>
@@ -44,8 +44,29 @@
                 <img class="headshot" src="https://avatars.githubusercontent.com/u/65688445?v=4" alt="Gabriel Pivoto">
             </div>
         </section>
-        <section class="sub-section"></section>
-        <footer></footer>
+        <section class="sub-section-alternative" id="projects">
+            <h2>Projetos</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="src/images/EconomicShower.png" alt="Economic Shower">
+                    <h3>Economic Shower</h3>
+                    <p class="subtext">Projeto voltado para economia de água e energia apresentado na Fetin de 2018. Vencedor do 3º lugar de nível 1.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://media.tenor.com/GdHSY2i9wW0AAAAC/funny-as.gif">Acesse</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="src/images/FocoCucaFresca.png" alt="As Aventuras de Max com Foco e Cuca Fresca">
+                    <h3>As Aventuras de Max com Foco e Cuca Fresca</h3>
+                    <p class="subtext">Projeto para auxilixar crianças especiais desenvolvido em um Iniciação Científica e apresentado na Fetin de 2019.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://media.tenor.com/GdHSY2i9wW0AAAAC/funny-as.gif">Acesse</a></p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h2>Contato</h2>
+            <p>gabriel-pivoto@outlook.com</p>
+        </footer>
 
         <script src="src/app.js"></script>
     </body>
