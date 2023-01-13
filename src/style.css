@@ -69,21 +69,26 @@ p{
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: cyan;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
 }
 
 .button:hover{
-    background-color: #ef744b;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
 
 .button:active{
-    background-color: #a9a9a9;
-    color: #808080;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
 
 .socials{
